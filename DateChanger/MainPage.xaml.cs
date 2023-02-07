@@ -2,8 +2,6 @@
 
 public partial class MainPage : ContentPage
 {
-	public DateTime Date { get; set; }
-
 	public MainPage()
 	{
 		InitializeComponent();

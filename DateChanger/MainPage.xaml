@@ -9,12 +9,7 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <DatePicker Date="{Binding Date}" DateSelected="DatePicker_DateSelected" HorizontalOptions="Center"/>
-
-            <Label
-                Text="{Binding Date}"
-                FontSize="18"
-                HorizontalOptions="Center" />
+            <DatePicker DateSelected="DatePicker_DateSelected" HorizontalOptions="Center"/>
 
         </VerticalStackLayout>
     </ScrollView>
